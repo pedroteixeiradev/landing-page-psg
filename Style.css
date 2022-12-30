@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter';
+}
+
+/* BACKGROUND NEYMAR INÍCIO */
+
+.background-neymar {
+    background: url(./Image/bg-neymar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    left: 0px;
+    top: 0px;
+    /* background: linear-gradient(0deg, rgba(11, 20, 33, 0.8), rgba(11, 20, 33, 0.8)), url(962077.jpg); */
+}
+
+.logo img {
+    position: absolute;
+    width: 64px;
+    height: auto;
+    left: 346px;
+    top: 40px;
+}
+
+nav {
+    display:flex;
+    gap: 35px;
+}
+
+nav a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F9F9F9;
+}
+
+.button-enter {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.button-enter button {
+    width: 163px;
+    height: 46px;
+    background-color: #DA2535;
+    padding: 10px;
+    color: #F9F9F9;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.button-enter a {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #F9F9F9;
+    padding-right: 51px;
+}
+
+.neymar-meio-container {
+    margin-left: 14%;
+    margin-top: 12%;
+    max-width: 100%;
+}
+
+.meio-neymar h1 {
+    color: #FFF;
+    font-size: 78px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.meio-neymar p {
+    color: #F9F9F9;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 1rem;
+    line-height: 25px;
+}
+
+.btn {
+    background-color: #DA2535;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    line-height: 22px;
+}   
+
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    align-items: center;
+    text-align: center;
+    gap: 10rem;
+}
+
+/* BACKGROUND NEYMAR FIM */
+
+/* RESULTADOS INÍCIO */
+
+.resultados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 400px;
+}
+
+.resultados h3 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.resultados h2 {
+    font-weight: 600;
+    font-size: 62px;
+}
+
+.resultados p {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+/* RESULTADOS FIM */
+
+/* PARC DES PRINCES INÍCIO */
+
+.princes-background {
+    background: url(./Image/wallapaper2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bem-vindo-aoparc {
+    width: 1020px;
+    height: auto;
+    background: #F9F9F9;
+    padding: 50px;
+}
+
+.bem-vindo-aoparc h1 {
+    border-left: 3px solid #DA2535;
+}
+
+.bem-vindo-aoparc h3 {
+    color: #DA2535;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.bem-vindo-aoparc p {
+    color: #515151;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    margin-top: 24px;
+}
+
+/* PARC DES PRINCES FIM */
+
+/* ÚLTIMAS NOTÍCIAS INÍCIO */
+
+.Noticia {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    line-height: auto;
+}
+
+.Noticia h1 {
+    margin-top: 5rem;
+    margin-left: 40.8rem;
+    border-left: 3px solid #DA2535;
+}
+
+.equipe-principal {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 5px;
+    flex-wrap: wrap;
+    padding: 5rem;
+    gap: 1.5rem;
+}
+
+.cards img {
+    width: 400px;
+    height: auto;
+}
+
+.cards p {
+    color: #DA2535;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cards h4 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.cards span {
+    color: #0B142173;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.paragrafo {
+    display: flex;
+    justify-content: left;
+    gap: 10rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ÚLTIMAS NOTÍCIAS FIM */
+
+/* RODAPÉ INÍCIO */
+
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-weight: lighter;
+    background-color: #0B1421;
+    margin-top: 5rem;
+    width: 100%;
+    height: auto;
+    gap: 8rem;
+}
+
+.footer-card {
+    margin-top: 56px;
+    margin-left: 346px;
+    margin-bottom: 3rem;
+}
+
+.footer-card h1 {
+    color: #FFF;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.footer-card p {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 2rem;
+}
